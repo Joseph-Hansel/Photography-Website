@@ -3,10 +3,13 @@
     border: 1px solid black;
     border-radius: 10px;
     background-color:cadetblue;
+    top: 0px;
+    /* position: fixed; */
 }
 
 .header {
     text-align: center;
+    top: 0px;
 }
 
 /* navigation bar */
@@ -17,6 +20,8 @@
     border: 1px solid black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    top: 0px;
+    /* position: fixed; */
 }
   
 /* Links inside the navigation section */
@@ -102,6 +107,7 @@
 
 .imageframe {
   border: 3px solid black;
+  text-align: center;
 }
 
 .shareicon {
@@ -114,6 +120,82 @@
     height: 30px;
 }
 
-#image1 {
-    
+.imageoptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+#image1frame {
+    width: 236px;
+    height: 600px;
+}
+
+#image3frame {
+    width: 474px;
+    height: 930px;
+}
+
+#image4frame {
+    width: 474px;
+    height: 735px;
+}
+
+#image5frame {
+    width: 236px;
+    height: 450px;
+}
+
+#image6frame {
+    width: 358px;
+    height: 610px;
+}
+
+#image7frame {
+    width: 474px;
+    height: 920px;
+}
+
+#image8frame {
+    width: 474px;
+    height: 550px;
+}
+
+#image9frame {
+    width: 474px;
+    height: 800px;
+}
+
+#image10frame {
+    width: 474px;
+    height: 1030px;
+}
+
+#image11frame {
+    width: 474px;
+    height: 800px;
+}
+
+#image12frame {
+    width: 474px;
+    height: 804px;
+}
+
+#image13frame {
+    width: 474px;
+    height: 930px;
+}
+
+#image16frame {
+    width: 474px;
+    height: 554px;
+}
+
+#image15frame {
+    width: 474px;
+    height: 794px;
 }

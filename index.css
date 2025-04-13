@@ -99,3 +99,21 @@
 .intro h3 {
     color: cadetblue;
 }
+
+.imageframe {
+  border: 3px solid black;
+}
+
+.shareicon {
+    width: 25px;
+    height: 25px;
+}
+
+.editicon {
+    width: 30px;
+    height: 30px;
+}
+
+#image1 {
+    
+}

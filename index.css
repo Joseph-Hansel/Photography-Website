@@ -275,3 +275,7 @@ body {
     justify-content: space-around;
     margin-top: 0px;
 }
+
+.backtotop {
+    text-decoration: none;
+}

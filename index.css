@@ -279,3 +279,19 @@ body {
 .backtotop {
     text-decoration: none;
 }
+
+@media screen 
+and (min-width:1200px)
+and (max-width:1600px){
+    html {
+        font-style: normal;
+        font-weight: lighter;
+        font-family: cursive;
+    }
+    .top {
+        font-family: sans-serif;
+    }
+    .footer {
+        font-family:'Times New Roman';
+    }
+}

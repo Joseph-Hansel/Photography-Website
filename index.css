@@ -40,7 +40,7 @@ body {
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 310px;
+    padding: 14px 350px;
     text-decoration: none;
 }
   
@@ -104,7 +104,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
+    padding: 20px;
     background-color: darkolivegreen;
     margin-top: 0px;
     border-bottom-left-radius: 10px;
@@ -122,7 +122,31 @@ body {
   /* Haha */
   width: 474px;
   background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+
+
+
+
+
+  /* background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #fff; */
 }
+
+.imageframe:hover {
+    transform: translateY(-10px);
+}
+
 
 .shareicon {
     width: 25px;
@@ -223,7 +247,7 @@ body {
    column-gap: 20px;
    flex-wrap:wrap;
 
-   /* Haha */
+
    width: 1200px;
    width: 100%;
    margin: 0 auto 20px;
@@ -232,6 +256,11 @@ body {
    justify-content: center;
    flex-flow:row wrap;
    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 550px));
+    grid-auto-rows: 15px;
+    gap: 57px;
 }
 
 .bio {
@@ -295,3 +324,19 @@ and (max-width:1600px){
         font-family:'Times New Roman';
     }
 }
+
+/* Final aesthetic edits */
+#image1frame { grid-row: span 11; background-color: cadetblue; }
+#image3frame { grid-row: span 15; background-color: #6b5b95; }
+#image4frame { grid-row: span 13; background-color: #88b04b; }
+#image5frame { grid-row: span 9; background-color: #d65076; }
+#image6frame { grid-row: span 11; background-color: #ffb347; }
+#image7frame { grid-row: span 15; background-color: #45b8ac; }
+#image8frame { grid-row: span 10; background-color: #e94b3c; }
+#image9frame { grid-row: span 13; background-color: #6c5b7b; }
+#image10frame { grid-row: span 17; background-color: #00a86b; }
+#image11frame { grid-row: span 13; background-color: #b565a7; }
+#image12frame { grid-row: span 13; background-color: #ff6f61; }
+#image13frame { grid-row: span 15; background-color: #88b04b; }
+#image16frame { grid-row: span 10; background-color: #d65076; }
+#image15frame { grid-row: span 13; background-color: #ffb347; }

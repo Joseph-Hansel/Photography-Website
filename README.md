@@ -1,6 +1,7 @@
 # SightCapture.com
 
-![Favorite icon](./images/Pic%202.jpg) ##SightCapture. The <ins>NO. 1</ins> Photography Website.
+![Favorite icon](./images/Pic%202.jpg) 
+## SightCapture. The <ins>NO. 1</ins> Photography Website.
 
 _Edited by:_ **Joseph Hansel**
 
@@ -42,6 +43,7 @@ The sole contributor was: **Joseph Hansel**
 
 In case of any eventuality that requires the attention of the developer, feel free to send an email through this [link](#mailto:)
 
+|Sight|Capture|
 
 ### License
 MIT License
@@ -66,6 +68,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 
- :+1 
 
 [Click here](#sightcapturecom)to go back to the top.

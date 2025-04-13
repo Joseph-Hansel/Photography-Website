@@ -8,7 +8,7 @@ body {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-color:cadetblue;
+    background-color:darkolivegreen;
     top: 0px;
     /* position: fixed; */
 }
@@ -248,13 +248,29 @@ body {
 }
 
 .biotext {
-    color: cadetblue;
-    border: 1px solid cadetblue;
+    color: darkolivegreen;
+    border: 1px solid darkolivegreen;
     text-align:justify;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .biotext hr {
-    color: cadetblue    ;
+    color: darkolivegreen;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.contacts {
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
 }

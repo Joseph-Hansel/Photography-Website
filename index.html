@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website designed to upload and share photos">
     <meta name="author" content="Joseph Hansel">
+    <link rel="stylesheet" href="./index.css">
     <title>SightCapture.com</title>
 </head>
 
@@ -21,7 +22,7 @@
         <hr>
 
 <!-- Navigation bar -->
-        <nav>
+        <nav class="navigation">
 
 <!-- Directs website user to gallery section. -->
             <div>
@@ -34,9 +35,15 @@
             </div>
 
 <!-- Opens a pop-down with account details and options. -->
-<!-- Research in progress. -->
-            <div>
-                <a href="#account">My account(s)</a>
+            <div class="dropdown">
+                <button class="dropbutton">My account(s)
+                    <i></i>
+                </button>
+                <div class="dropdowncontent">
+                    <a href="#current account">Current</a>
+                    <a href="#add account">Add account</a>
+                    <a href="#log out">Log out</a>
+                </div>
             </div>
 
         </nav>

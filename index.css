@@ -1,7 +1,13 @@
+body {
+    background-color:white;
+}
+
 /*  navigation section  */
 .top {
     border: 1px solid black;
     border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     background-color:cadetblue;
     top: 0px;
     /* position: fixed; */
@@ -18,8 +24,8 @@
     background-color: #333;
     font-family: Arial;
     border: 1px solid black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     top: 0px;
     /* position: fixed; */
 }
@@ -99,15 +105,22 @@
     align-items: center;
     justify-content: space-around;
     padding: 5px;
+    background-color: white;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
 }
 
 .intro h3 {
-    color: cadetblue;
+    color: black;
 }
 
 .imageframe {
   border: 3px solid black;
   text-align: center;
+  /* Haha */
+  width: 474px;
 }
 
 .shareicon {
@@ -131,7 +144,8 @@
 }
 
 #image1frame {
-    width: 236px;
+    background-color: white;
+    width: 474px;
     height: 600px;
 }
 
@@ -146,12 +160,12 @@
 }
 
 #image5frame {
-    width: 236px;
+    width: 474px;
     height: 450px;
 }
 
 #image6frame {
-    width: 358px;
+    width: 474px;
     height: 610px;
 }
 
@@ -199,3 +213,22 @@
     width: 474px;
     height: 794px;
 }
+
+.gallery {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   row-gap:40px;
+   column-gap: 20px;
+   flex-wrap:wrap;
+
+   /* Haha */
+   width: 1200px;
+   width: 100%;
+   margin: 0 auto 20px;
+   align-items: flex-start;
+   flex-basis: 10;
+   justify-content: center;
+   flex-flow:row wrap;
+}
+
